@@ -6,7 +6,8 @@
     "dev": "next dev && vite",
     "build": "next build",
     "start": "next start && vite",
-    "lint": "next lint"
+    "lint": "next lint",
+    "style": "tailwindcss build src/assets/styles/index.css -o src/assets/styles/tailwind.css"
   },
   "dependencies": {
     "next": "12.1.1",
