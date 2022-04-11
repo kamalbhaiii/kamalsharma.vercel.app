@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link"
 
 const MainFooter = () => {
   return (
@@ -8,7 +9,7 @@ const MainFooter = () => {
         &copy; 2022-2027 Kamal Sharma
         </div>
         <div>
-            Source Code
+            <Link href="https://www.github.com/Kamal040102/portfolio-kamal">Source Code</Link>
         </div>
     </div>
     </>
