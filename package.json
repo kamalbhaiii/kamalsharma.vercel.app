@@ -3,18 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev && vite",
     "build": "next build",
-    "start": "next start",
+    "start": "next start && vite",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "12.1.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "vite": "^2.8.6"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.4",
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.1"
-  }
+    "eslint-config-next": "12.1.1",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }
