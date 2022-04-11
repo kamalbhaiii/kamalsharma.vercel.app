@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div>
-        <script src="https://cdn.tailwindcss.com"></script>
+        {/* <script src="https://cdn.tailwindcss.com"></script> */}
         <div className="text-4xl font-medium px-40 py-2">
           Hey!
         </div>

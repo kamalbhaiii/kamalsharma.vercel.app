@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between bg-black text-white text-xl sticky top-0 z-10">
 
-      <script src="https://cdn.tailwindcss.com"></script>
+      {/* <script src="https://cdn.tailwindcss.com"></script> */}
 
         <ul>
             <Link href="/"><li className="cursor-pointer p-3 font-bold">Kamal Sharma</li></Link>
