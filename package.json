@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev && vite",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start && vite",
     "lint": "next lint",
     "style": "tailwindcss build src/assets/styles/index.css -o src/assets/styles/tailwind.css"
