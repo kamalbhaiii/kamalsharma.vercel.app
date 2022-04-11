@@ -1,9 +1,3 @@
-/* purgecss start ignore */
-@tailwind  base;
-@tailwind  components;
-/* purgecss end ignore */
-@tailwind  utilities;
-
 /* html,
 body {
   padding: 0;
@@ -16,6 +10,12 @@ a {
   color: inherit;
   text-decoration: none;
 } */
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
 
 * {
   margin: 0;

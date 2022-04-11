@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev && vite",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start && vite",
+    "start": "next start",
     "lint": "next lint",
     "style": "tailwindcss build src/assets/styles/index.css -o src/assets/styles/tailwind.css"
   },
