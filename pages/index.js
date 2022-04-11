@@ -22,10 +22,6 @@ export default function Home() {
       <div id="AboutMe" className="bg-white py-10">
         <Intro />
       </div>
-      <div className="footer">
-        <Footer/>
-        <MainFooter/>
-      </div>
     </div>
   );
 }
