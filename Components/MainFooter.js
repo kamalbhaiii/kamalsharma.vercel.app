@@ -4,7 +4,7 @@ import Link from "next/link"
 const MainFooter = () => {
   return (
     <>
-    <div className="flex text-white justify-between px-32 py-2 bg-black">
+    <div className="flex text-white justify-between px-4 lg:px-32 py-2 bg-black">
         <div>
         &copy; 2022-2027 Kamal Sharma
         </div>

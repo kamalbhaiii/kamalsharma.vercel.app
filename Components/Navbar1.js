@@ -1,10 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Navbar = () => {
+const Navbar1 = () => {
   return (
-    <div>
-        <div className="flex justify-between bg-black text-white text-xl sticky top-0 z-10">
+    <div className="flex justify-between bg-black text-white text-xl sticky top-0 z-10">
         <ul>
             <Link href="/"><li className="cursor-pointer p-3 sm:p-0 font-bold">Kamal Sharma</li></Link>
         </ul>
@@ -14,8 +13,7 @@ const Navbar = () => {
             <Link href="/Projects"><li className="cursor-pointer mx-2 p-3">Projects</li></Link>
         </ul>
     </div>
-    </div>
   )
 }
 
-export default Navbar
+export default Navbar1
