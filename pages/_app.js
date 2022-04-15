@@ -21,12 +21,12 @@ function MyApp({ Component, pageProps }) {
       strategy='lazyOnload'
       src={`https://www.googletagmanager.com/gtag/js?id=G-H2CC5EGW88`}
     />
-    <Script strategy='lazyOnload'>
+    <Script strategy='lazyOnload' id="analytics">
       {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        
+
         gtag('config', 'G-H2CC5EGW88');
       `}
     </Script>
