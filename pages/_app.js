@@ -29,6 +29,7 @@ function MyApp({ Component, pageProps }) {
         gtag('config', 'G-H2CC5EGW88');
       `}
     </Script>
+    <Script src={`//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-625988a0c4086893`}></Script>
     </div>
   )
 }
