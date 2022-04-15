@@ -3,6 +3,7 @@ import MainFooter from '../Components/MainFooter'
 import Header from '../Components/Header'
 import '../styles/tailwind.css'
 import Head from 'next/head'
+import Script from 'next/script'
 
 
 function MyApp({ Component, pageProps }) {
@@ -15,6 +16,19 @@ function MyApp({ Component, pageProps }) {
     <Component {...pageProps} />
     <Footer/>
     <MainFooter/>
+    <Script
+      strategy='lazyOnload'
+      src={`https://www.googletagmanager.com/gtag/js?id=G-H2CC5EGW88`}
+    />
+    <Script strategy='lazyOnload' id="analytics">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-H2CC5EGW88');
+      `}
+    </Script>
     </div>
   )
 }
