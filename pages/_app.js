@@ -19,15 +19,15 @@ function MyApp({ Component, pageProps }) {
     <MainFooter/>
     <Script
       strategy='lazyOnload'
-      src={`https://www.googletagmanager.com/gtag/js?id=${process.env.ANALYTICS_KEY}`}
+      src={`https://www.googletagmanager.com/gtag/js?id=G-H2CC5EGW88`}
     />
     <Script strategy='lazyOnload'>
       {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
-        gtag('config', ${process.env.ANALYTICS_KEY});
+        
+        gtag('config', 'G-H2CC5EGW88');
       `}
     </Script>
     </div>
