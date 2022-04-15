@@ -6,8 +6,6 @@ import {Nav} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Link from 'next/link'
-// import 'react-bootstrap'
-// import Script from 'next/script'
 import styles from '../styles/Header.module.css'
 
 const Header = () => {
