@@ -13,8 +13,6 @@ import facebook from '../icons/facebook-brands.svg'
 const Main = () => {
   return (
     <div>
-        {/* <script src="https://cdn.tailwindcss.com"></script> */}
-        {/* <script src="https://kit.fontawesome.com/444eba2dfa.js"></script> */}
         <div className="flex justify-center items-center">
             <Image className="rounded-full" src={me} 
                 alt="My Image"

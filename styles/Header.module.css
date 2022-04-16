@@ -5,3 +5,8 @@
 .navBg{
     background-color: black;
 }
+
+.anchor {
+    text-decoration: none;
+    color: white !important;
+}
