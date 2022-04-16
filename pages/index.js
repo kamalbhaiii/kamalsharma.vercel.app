@@ -11,7 +11,7 @@ export default function Home() {
         <title>Home | Kamal Sharma</title>
         <meta name="description" content="I am a third year under graduate, Computer Engineering student and Data Science Enthusiast. I have worked as an intern in various companies as a Data Science Trainee, also I am an intermediate Full-Stack Web Developer and learning daily to improve my self. Currently I am focusing more towards learning the fundamentals of Data Science and creating my own Metaverse." />
         <meta name="image" content="https://www.awesomescreenshot.com/image/25789011?key=876a3b67d08115bb08213ddbe891c979"/>
-        <meta name="keywords" content="kamal, sharma, science, resume, portfolio, projects, data science, web development, full stack development, Data Scientist Portfolio Web, Full Stack Developer Portfolio Web, Next JS, Bootstrap, Tailwind css Portfolio Web, Portfolio Website" />
+        <meta name="keywords" content="kamal, sharma, science, resume, portfolio, projects, data science, web development, full stack development, Data Scientist Portfolio Web, Full Stack Developer Portfolio Web, Next JS, Bootstrap, Tailwind css Portfolio Web, Portfolio Website, Kamal Sharma, Kamal Sharma Portflio, Kamal Sharma Resume" />
         <meta charset="utf-8"/>
         <meta itemProp="name" content="Home | Kamal Sharma"/>
         <meta itemProp="description" content="I am a third year under graduate, Computer Engineering student and Data Science Enthusiast. I have worked as an intern in various companies as a Data Science Trainee, also I am an intermediate Full-Stack Web Developer and learning daily to improve my self. Currently I am focusing more towards learning the fundamentals of Data Science and creating my own Metaverse."/>
