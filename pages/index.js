@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Intro from '../Components/Intro'
 import Main from '../Components/Main'
+import Work from '../Components/Work';
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Home(props) {
+  let repo = []
   return (
     <div className="w-screen">
     <div className={styles.container}>
@@ -34,7 +36,26 @@ export default function Home() {
       <div id="AboutMe" className="bg-white py-10">
         <Intro />
       </div>
+      <div id="MyProjects">
+        {
+          [props.data].map((val)=>{
+            for(let i = 1; i <= Object.keys(val).length; i++){
+              repo.push(val[i])
+            }
+          })
+        }
+        <Work repo={repo}/>
+      </div>
     </div>
     </div>
   );
+}
+
+export async function getServerSideProps(){
+  const res = await fetch('https://getmyrepo.deta.dev/Kamal040102')
+  const data = await res.json()
+
+  return {
+      props: {data}
+  }
 }
