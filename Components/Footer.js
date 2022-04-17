@@ -22,7 +22,7 @@ const Footer = () => {
               <div className="py-4">
                   <div className="text-3xl py-4">Site Map</div>
                   <div>
-                      <Link href="#AboutMe">
+                      <Link href="/#AboutMe">
                           <span className="text-blue-400 cursor-pointer">
                               About Me
                           </span>
@@ -36,7 +36,7 @@ const Footer = () => {
                       </Link>
                   </div>
                   <div>
-                      <Link href="/Projects">
+                      <Link href="/#MyProjects">
                           <span className="text-blue-400 cursor-pointer">
                               Projects
                           </span>
