@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import styles from '../styles/Header.module.css'
 
 const Footer = () => {
   return (
@@ -29,18 +30,14 @@ const Footer = () => {
                       </Link>
                   </div>
                   <div>
-                      <Link href="/Resume">
+                      <Link href="/#MyProjects">
                           <span className="text-blue-400 cursor-pointer">
-                              Resume
+                              My Projects
                           </span>
                       </Link>
                   </div>
                   <div>
-                      <Link href="/#MyProjects">
-                          <span className="text-blue-400 cursor-pointer">
-                              Projects
-                          </span>
-                      </Link>
+                  <a className="text-blue-400" href="https://drive.google.com/file/d/1NXyG41xnRzxGLQXc-RXYV0f3YTr0qPzA/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                   </div>
               </div>
           </div>

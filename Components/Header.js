@@ -20,8 +20,6 @@ const Header = () => {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
         <Link href="/#AboutMe"><Navbar.Brand className={styles.cursorPointer}>About Me</Navbar.Brand></Link>
-        {/* <Link href="/Resume"><Navbar.Brand className={styles.cursorPointer}>Resume</Navbar.Brand></Link>
-         */}
          <Link href="/#MyProjects"><Navbar.Brand className={styles.cursorPointer}>My Projects</Navbar.Brand></Link>
          <Navbar.Brand className={styles.cursorPointer}><a className={styles.anchor} href="https://drive.google.com/file/d/1NXyG41xnRzxGLQXc-RXYV0f3YTr0qPzA/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></Navbar.Brand>
       </Nav>
