@@ -6,8 +6,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Link from 'next/link'
 import styles from '../styles/Header.module.css'
-import icon from '../public/favicon.ico'
-import Image from 'next/image'
 
 const Header = () => {
   return (
