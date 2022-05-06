@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function RepoPresent(props){
     return(
-        <div className="col-sm-12 col-md-6 col-lg-3 text-black my-5 mx-3 mx-md-0">
+        <div className="col-sm-12 col-md-6 col-lg-3 text-black my-5 px-md-3 px-0">
             <div className="card">
                 <h5 className="card-header font-bold">{props.title}</h5>
                 <div className="card-body">

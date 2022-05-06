@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '../styles/Header.module.css'
+import styles from '../styles/Work.module.css'
 
 const Footer = () => {
   return (
-      <div>
+      <div className={styles.workWidth}>
           <div className="grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 text-white px-3 lg:px-32 lg:py-10 bg-gray-900">
               <div className="py-4">
                   <div className="text-3xl py-4">Contact Me</div>
