@@ -2,6 +2,10 @@
     cursor: pointer;
 }
 
+.cursorPointer:hover{
+    color: yellow !important;
+}
+
 .navBg{
     background-color: black;
     width:100%;
@@ -9,5 +13,10 @@
 
 .anchor {
     text-decoration: none;
+    color: white;
+} 
+
+.title {
+    cursor: pointer;
     color: white !important;
 }
