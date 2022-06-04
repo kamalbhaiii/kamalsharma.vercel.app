@@ -9,6 +9,7 @@ import github from '../icons/github-brands.svg'
 import discord from '../icons/discord-brands.svg'
 import linkedin from '../icons/linkedin-brands.svg'
 import facebook from '../icons/facebook-brands.svg'
+import styles from '../styles/Main.module.css'
 
 const Main = () => {
   return (
@@ -21,7 +22,37 @@ const Main = () => {
             />
         </div>
         <div className="text-white flex flex-col justify-center items-center text-center">
-            <h1 className="text-7xl my-2">Kamal Sharma</h1>
+            <h1 className="text-7xl my-2">
+              <div className="d-inline-block">
+              <button className={styles.bounce}>K</button>
+              <button className={styles.bounce}>a</button>
+              <button className={styles.bounce}>m</button>
+              <button className={styles.bounce}>a</button>
+              <button className={styles.bounce}>l</button>
+              </div>
+              <span> </span>
+              <div className="d-inline-block">
+              <button className={styles.bounce}>S</button>
+              <button className={styles.bounce}>h</button>
+              <button className={styles.bounce}>a</button>
+              <button className={styles.bounce}>r</button>
+              <button className={styles.bounce}>m</button>
+              <button className={styles.bounce}>a</button>
+              </div>
+              
+              {/* <span className={styles.bouncy}>K</span>
+              <span className={styles.bouncy}>a</span>
+              <span className={styles.bouncy}>m</span>
+              <span className={styles.bouncy}>a</span>
+              <span className={styles.bouncy}>l</span>
+              <span> </span>
+              <span className={styles.bouncy}>S</span>
+              <span className={styles.bouncy}>h</span>
+              <span className={styles.bouncy}>a</span>
+              <span className={styles.bouncy}>r</span>
+              <span className={styles.bouncy}>m</span>
+              <span className={styles.bouncy}>a</span> */}
+            </h1>
             <h3 className="text-2xl px-5 lg:px-0 my-2">Student, Developer and Data Scientist</h3>
         </div>
         <div className="flex flex-row justify-evenly my-10">

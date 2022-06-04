@@ -1,0 +1,39 @@
+.bounce{
+	background-color: transparent;
+	font-weight: bolder;
+	color: white;
+	transition: color 1.2s ease-in;
+}
+
+.bounce:hover{
+	color: yellow;
+	transition: color 0.5s ease-out;
+	animation-name: blast;
+	animation-duration: 0.7s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+@keyframes blast {
+	0%{
+		transform: scale(1.3,0.7);
+	}
+	50%{
+		transform: scale(0.7,1.3);
+	}
+	60%{
+		transform: scale(1.2,0.8)
+	}
+	70%{
+		transform: scale(0.8,1.2)
+	}
+	80%{
+		transform: scale(1.1,0.9)
+	}
+	90%{
+		transform: scale(0.9,1.1)
+	}
+	100%{
+		transform: scale(1,1)
+	}
+}
