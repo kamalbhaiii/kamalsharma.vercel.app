@@ -17,7 +17,6 @@ const Work = (props) => {
       </div> */}
 
       <div className="container">
-        <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
         <div className="row">
         {
   props.repo.map((val, key)=>{
@@ -25,7 +24,6 @@ const Work = (props) => {
   })
 }
         </div>
-        </AnimationOnScroll>
 
       </div>
     </div>

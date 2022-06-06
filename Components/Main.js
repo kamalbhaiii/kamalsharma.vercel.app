@@ -11,10 +11,12 @@ import linkedin from '../icons/linkedin-brands.svg'
 import facebook from '../icons/facebook-brands.svg'
 import styles from '../styles/Main.module.css'
 import { Typewriter } from 'react-simple-typewriter'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Main = () => {
   return (
     <div>
+        <AnimationOnScroll animateIn="animate__fadeInDown">
         <div className="flex justify-center items-center">
             <Image className="rounded-full" src={me} 
                 alt="My Image"
@@ -65,6 +67,7 @@ const Main = () => {
         <Link href="https://www.snapchat.com/add/kamal_s5201"><Image className="fill-white" src={snapchat} width={16} height={16.8} alt='snapchat logo'/></Link>
         <Link href="mailto:kamal5201ks@gmail.com"><Image className="fill-white" src={google} width={16} height={16.8} alt='google logo'/></Link>
         </div>
+        </AnimationOnScroll>
     </div>
   )
 }

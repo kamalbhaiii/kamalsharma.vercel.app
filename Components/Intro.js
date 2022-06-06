@@ -3,7 +3,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Intro = () => {
   return (
-    <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
+    <AnimationOnScroll animateIn="animate__fadeInDown">
           <div>
         <div className="text-4xl font-medium px-5 md:px-40 py-2">
           Hey!
