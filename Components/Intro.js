@@ -1,8 +1,10 @@
 import React from 'react'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Intro = () => {
   return (
-    <div>
+    <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
+          <div>
         <div className="text-4xl font-medium px-5 md:px-40 py-2">
           Hey!
         </div>
@@ -15,6 +17,7 @@ const Intro = () => {
         </div>
         </div>
     </div>
+    </AnimationOnScroll>
   )
 }
 

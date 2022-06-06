@@ -1,5 +1,7 @@
 import React from "react";
 import RepoPresent from "../Components/RepoPresent";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 const Work = (props) => {
   return (
@@ -7,8 +9,15 @@ const Work = (props) => {
       <div className="text-white d-flex flex-col justify-center items-center">
         <h2 className="text-3xl text-center p-3">My Projects</h2>
       </div>
+      
+      {/* <div className="d-flex justify-center items-center">
+      <AnimationOnScroll animateIn="animate__fadeInRightBig">
+   <h5 className="text-white">Look me too.</h5>
+</AnimationOnScroll>
+      </div> */}
 
       <div className="container">
+        <AnimationOnScroll animateIn="animate__fadeInDown" animateOnce={true}>
         <div className="row">
         {
   props.repo.map((val, key)=>{
@@ -16,6 +25,7 @@ const Work = (props) => {
   })
 }
         </div>
+        </AnimationOnScroll>
 
       </div>
     </div>

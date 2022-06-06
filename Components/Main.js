@@ -12,7 +12,6 @@ import facebook from '../icons/facebook-brands.svg'
 import styles from '../styles/Main.module.css'
 import { Typewriter } from 'react-simple-typewriter'
 
-
 const Main = () => {
   return (
     <div>
@@ -41,19 +40,6 @@ const Main = () => {
               <button className={styles.bounce}>m</button>
               <button className={styles.bounce}>a</button>
               </div>
-        
-              {/* <span className={styles.bouncy}>K</span>
-              <span className={styles.bouncy}>a</span>
-              <span className={styles.bouncy}>m</span>
-              <span className={styles.bouncy}>a</span>
-              <span className={styles.bouncy}>l</span>
-              <span> </span>
-              <span className={styles.bouncy}>S</span>
-              <span className={styles.bouncy}>h</span>
-              <span className={styles.bouncy}>a</span>
-              <span className={styles.bouncy}>r</span>
-              <span className={styles.bouncy}>m</span>
-              <span className={styles.bouncy}>a</span> */}
             </h1>
             <h3 className="text-2xl px-5 lg:px-0 my-2">I am {' '}
               <span style={{color:'yellow'}}>
