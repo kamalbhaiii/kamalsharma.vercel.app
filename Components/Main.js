@@ -10,6 +10,8 @@ import discord from '../icons/discord-brands.svg'
 import linkedin from '../icons/linkedin-brands.svg'
 import facebook from '../icons/facebook-brands.svg'
 import styles from '../styles/Main.module.css'
+import { Typewriter } from 'react-simple-typewriter'
+
 
 const Main = () => {
   return (
@@ -39,7 +41,7 @@ const Main = () => {
               <button className={styles.bounce}>m</button>
               <button className={styles.bounce}>a</button>
               </div>
-              
+        
               {/* <span className={styles.bouncy}>K</span>
               <span className={styles.bouncy}>a</span>
               <span className={styles.bouncy}>m</span>
@@ -53,7 +55,18 @@ const Main = () => {
               <span className={styles.bouncy}>m</span>
               <span className={styles.bouncy}>a</span> */}
             </h1>
-            <h3 className="text-2xl px-5 lg:px-0 my-2">Student, Developer and Data Scientist</h3>
+            <h3 className="text-2xl px-5 lg:px-0 my-2">I am {' '}
+              <span style={{color:'yellow'}}>
+              <Typewriter
+                words={['Student', 'Developer', 'Data Analyst']}
+                loop={0}
+                cursor
+                cursorStyle='_'
+                typeSpeed={70}
+                deleteSpeed={50}
+              />
+              </span>
+            </h3>
         </div>
         <div className="flex flex-row justify-evenly my-10">
         <Link href="https://www.instagram.com/mr_kamalsharma">
