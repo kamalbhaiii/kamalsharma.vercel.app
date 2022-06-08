@@ -20,8 +20,8 @@ const Main = () => {
         <div className="flex justify-center items-center">
             <Image className="rounded-full" src={me} 
                 alt="My Image"
-                width={120}
-                height={120}
+                width={150}
+                height={150}
             />
         </div>
         <div className="text-white flex flex-col justify-center items-center text-center">
@@ -43,13 +43,13 @@ const Main = () => {
               <button className={styles.bounce}>a</button>
               </div>
             </h1>
-            <h3 className="text-2xl px-5 lg:px-0 my-2">I am {' '}
+            <h3 className="text-2xl px-5 lg:px-0 my-2">A {' '}
               <span style={{color:'yellow'}}>
               <Typewriter
                 words={['Student', 'Developer', 'Data Analyst']}
                 loop={0}
                 cursor
-                cursorStyle='_'
+                cursorStyle='I'
                 typeSpeed={70}
                 deleteSpeed={50}
               />
