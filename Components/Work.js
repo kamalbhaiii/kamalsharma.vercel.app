@@ -9,12 +9,6 @@ const Work = (props) => {
       <div className="text-white d-flex flex-col justify-center items-center">
         <h2 className="text-3xl text-center p-3">My Projects</h2>
       </div>
-      
-      {/* <div className="d-flex justify-center items-center">
-      <AnimationOnScroll animateIn="animate__fadeInRightBig">
-   <h5 className="text-white">Look me too.</h5>
-</AnimationOnScroll>
-      </div> */}
 
       <div className="container">
         <div className="row">

@@ -1,0 +1,31 @@
+.vl {
+    border-left: 4px solid black;
+    height: 100%;
+}
+
+.hide {
+    background-color: black;
+}
+
+@media screen and (max-width:993px) {
+    .vl {
+        display: none;
+    }
+
+    #hideRightOne {
+        display: none !important;
+    }
+
+    #hideRightTwo {
+        display: none !important;
+    }
+
+    #hideLeftOne {
+        display: none !important;
+    }
+
+    #hideLeftTwo {
+        display: none !important;
+    }
+
+}
